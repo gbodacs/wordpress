@@ -1,0 +1,3 @@
+Plugin: insert header and footer
+Add script just before the </body>:
+<script src="https://www.anrdoezrs.net/am/100171613/include/allCj/impressions/page/am.js"></script>
