@@ -29,6 +29,24 @@
     }
     
     /*------------------------*/
+    a.buttonbg {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #0079b8;
+    background: #6ec1e4;
+    border-radius: 12px;
+    padding: 0px 20px;
+    transition-duration: 0.5s;
+    }
+          
+    a.buttonbg:hover {
+    background-color: #0079b8; 
+    }
+    
+    /*------------------------*/
     .table33bg table {
     margin: 0 0 0 0;
     border-radius: 15px;
@@ -48,55 +66,3 @@
     border-radius: 15px;
     }
     
-    
-    
-
-/***************************************************
-//***************************************************
-//***************************************************
-//***************************************************
-//***************************************************
-.tablefullbg table {
-margin: 0 0 0 0;
-}
-
-.tablefullbg td{
-text-align:center;
-vertical-align:middle;
-}
-
-.tablefullbg figure{
-border-style: hidden;
-}
-
-figure.wp-block-table.tablefullbg {
-width:100%;
-background-color:#F5F5F5;
-box-shadow:0px 0px 8px 2px rgba(0,0,0,0.2);
-border-radius: 15px;
-/*border-collapse: collapse;
-border: none;
-margin: 0 0 0 0;*/
-}
-
-.tablefullbg th{
-vertical-align:middle;
-background-color:#e8e8e8;
-}
-
-/*------------------------*/
-.table33bg table {
-margin: 0 0 0 0;
-}
-
-figure.wp-block-table.table33bg {
-width:33%;
-background-color:#F5F5F5;
-box-shadow:0px 0px 8px 2px rgba(0,0,0,0.2);
-border-radius: 15px;
-}
-
-.table33bg td{
-text-align:left;
-vertical-align:middle;
-}
